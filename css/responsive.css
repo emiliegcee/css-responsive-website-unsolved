@@ -35,15 +35,30 @@
 
   @media (max-device-width: 360px) {
 
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      max-width: 100%;
+  }
+
     .header-content {
       display: flex;
       flex-direction: row;
+      width: 360px;
+      max-width: 100%;
       
+    }
+
+    .top-navigation ul {
+      display: none;
     }
 
     footer .social-icons {
       display: flex;
       flex-direction: column;
+      align-items: center;
       width: 360px;
       max-width: 100%;
     }
@@ -51,6 +66,7 @@
     .footer-contacts {
       display: flex;
       flex-direction: column;
+      align-items: center;
       width: 360px;
       max-width: 100%;
     } 
@@ -65,6 +81,8 @@
 
     .surrounded-header {
       display: flex;
+      midth: 360px;
+      max-width: 100%;
       
     }
     .subtext {
@@ -124,13 +142,13 @@
       max-width: 100%;
     }
 
-    .content {
+    /* .content {
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
       align-items: center;
       max-width: 100%;
-  }
+  } */
 
     .portfolio-list {
       display: flex;
